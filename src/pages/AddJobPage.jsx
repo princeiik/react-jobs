@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function AddJobPage({ addJobSumbit }) {
+function AddJobPage({ addJobSubmit }) {
     const [title, setTitle] = useState('')
     const [type, setType] = useState('Full-Time')
     const [location, setLocation] = useState('')
@@ -32,9 +32,9 @@ function AddJobPage({ addJobSumbit }) {
             }
         }
 
-        addJobSumbit(newJob)
+        addJobSubmit(newJob)
 
-        return navigate('/jobs')
+        return navigate()
     }
 
     return (

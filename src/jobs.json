@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "1626",
-      "title": "Test company 2",
-      "type": "Full-Time",
-      "location": "Austin TX",
-      "description": "This is a test",
-      "salary": "Under 50k",
-      "company": {
-        "name": "K Company",
-        "description": "This is a great company",
-        "contactEmail": "aerin@kcompany.com",
-        "contactPhone": "555-555-5555"
-      }
     }
   ]
 }
