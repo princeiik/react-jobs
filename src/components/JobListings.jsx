@@ -13,7 +13,7 @@ function JobListings({ isHome = false}) {
       // limits job cards to 3
       const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs" 
       
-      
+      //Fetches information from our jobs json
       try {
         const res = await fetch(apiUrl)
         const data = await res.json()
