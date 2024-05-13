@@ -13,3 +13,9 @@ Currently, two official plugins are available:
 
 `npm install`
 
+---
+
+# Run
+
+`npm run dev` 
+`npm run server`
