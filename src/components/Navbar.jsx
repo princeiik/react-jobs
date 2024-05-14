@@ -15,7 +15,7 @@ function Navbar() {
             <div
               className="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
             >
-              {/* <!-- Logo --> */}
+              {/* React Logo */}
               <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
                 <img
                   className="h-10 w-auto"
